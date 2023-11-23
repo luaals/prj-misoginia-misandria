@@ -1,0 +1,38 @@
+<html>
+        <head>
+            <link rel="stylesheet" href="estilosjogo.css">
+          
+            <script src="script.js"></script>
+        </head>
+
+      <script src="script.js"></script>
+    <body align="center">
+
+        <h2>Drag and Drop Misoginia x Misandria</h2>
+        <p>Arraste de acordo com as características corretas:</p>
+
+        <div class="tema">
+        <div id="item-0"><img src="misoginia.png"  draggable="true" ondragstart="drag(event)" id="drag"></div>
+
+        <div id="item-1"><img src="misandria.png"  draggable="true" ondragstart="drag(event)" id="drag1"></div>
+    </div>
+
+        <div class="todas">
+
+        <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"> Ódio às mulheres</div>
+        <br><br>
+        
+        <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">Repulsa, desprezo ou ódio contra o sexo masculino</div>
+        <br><br><br><br><br>
+        
+        <div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)">Sentimentos de desprezo, preconceito, repulsa e aversão às mulheres e ao que remete ao feminino</div>
+        <br><br><br><br><br>
+
+        <div id="div8" ondrop="drop(event)" ondragover="allowDrop(event)">Ódio aos homens</div>
+        <br><br><br><br><br>
+
+    </div>
+
+    </body>
+</html>
+
